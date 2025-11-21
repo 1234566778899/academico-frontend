@@ -35,7 +35,6 @@ export class PanelRiesgoComponent implements OnInit {
     'grado',
     'seccion',
     'competenciasEnC',
-    'acciones'
   ];
 
   periodos = [
