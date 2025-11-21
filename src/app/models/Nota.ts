@@ -4,9 +4,11 @@ export class Nota {
     nombreEstudiante: string = '';
     idCompetencia: number = 0;
     nombreCompetencia: string = '';
+    idCurso: number = 0; // ⬅️ AGREGAR
+    nombreCurso: string = ''; // ⬅️ AGREGAR
     idDocente: number = 0;
     nombreDocente: string = '';
-    calificacion: string = ''; // ⬅️ Cambiado de number a string
+    calificacion: string = '';
     periodo: string = '';
     anio: number = new Date().getFullYear();
     fechaRegistro: Date = new Date();

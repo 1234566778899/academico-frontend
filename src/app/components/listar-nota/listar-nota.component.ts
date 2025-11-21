@@ -46,6 +46,7 @@ export class ListarNotaComponent implements OnInit {
 
   loadData(): void {
     this.nS.list().subscribe((data) => {
+      console.log(data)
       this.dataSource = new MatTableDataSource(data);
       this.dataSource.paginator = this.paginator;
       
